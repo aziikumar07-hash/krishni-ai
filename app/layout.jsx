@@ -39,6 +39,12 @@ const mukta = Mukta({
   weight: ['400', '600', '700', '800'],
   variable: '--font-mukta',
   display: 'swap',
+  // Not preloaded. Preloading fetches every declared face before the page can
+  // paint; these two families are only reached for Devanagari codepoints, so on
+  // the default English page they were ~311 KB of dead weight racing the hero
+  // headline for bandwidth. The @font-face rules still ship, so Hindi resolves
+  // them on demand the moment a Devanagari glyph appears.
+  preload: false,
 })
 
 const notoSerifDevanagari = Noto_Serif_Devanagari({
@@ -46,6 +52,7 @@ const notoSerifDevanagari = Noto_Serif_Devanagari({
   weight: '400',
   variable: '--font-noto-serif-dev',
   display: 'swap',
+  preload: false,
 })
 
 const title = 'Krishni AI — Know Your Farm Profit Before Harvest'
