@@ -1,0 +1,26 @@
+{
+  "name": "krishni-ai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Krishni AI — WhatsApp-delivered agricultural assistant for Indian farmers",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@google/genai": "2.19.0",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
