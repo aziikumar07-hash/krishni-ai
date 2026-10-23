@@ -43,8 +43,8 @@ export default function About() {
             <Image
               src="/images/hero-farmland.webp"
               alt="Mixed farmland at golden hour, the kind of smallholding Krishni AI is built for"
-              width={640}
-              height={480}
+              width={480}
+              height={280}
               sizes="(max-width: 900px) 90vw, 480px"
               quality={74}
             />

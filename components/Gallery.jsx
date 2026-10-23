@@ -19,9 +19,9 @@ export default function Gallery() {
       <Image
         src={crop.image}
         alt={clone ? '' : `${t(crop.labelKey)} — Krishni AI supported crop`}
-        width={520}
-        height={390}
-        sizes="(max-width: 768px) 60vw, 320px"
+        width={380}
+        height={260}
+        sizes="(max-width: 768px) 300px, 380px"
         // Explicit dimensions and sizes: the legacy <img> tags had neither, so
         // the browser could not reserve space and the strip shifted on load.
         loading="lazy"
