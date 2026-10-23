@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Krishni AI">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16a34a"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <!-- Wheat sheaf: central stalk plus three grain pairs. -->
+  <g stroke="#fff" stroke-width="3.5" stroke-linecap="round" fill="none">
+    <path d="M32 50V26"/>
+    <path d="M32 30c-6-2-9-6-9-11 5 0 8 3 9 8"/>
+    <path d="M32 30c6-2 9-6 9-11-5 0-8 3-9 8"/>
+    <path d="M32 40c-6-2-9-6-9-11 5 0 8 3 9 8"/>
+    <path d="M32 40c6-2 9-6 9-11-5 0-8 3-9 8"/>
+  </g>
+</svg>
