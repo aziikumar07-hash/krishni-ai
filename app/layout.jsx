@@ -164,8 +164,8 @@ function StructuredData() {
             a: 'Hindi and English today, including mixed Hinglish sentences. More regional languages are planned.',
           },
           {
-            q: 'How accurate is the crop disease check?',
-            a: `On our internal test set it reaches ${metrics.accuracyPct}% accuracy. That is a lab measurement, not a field trial, and it is not a substitute for an agronomist on a serious outbreak.`,
+            q: 'How accurate is the crop advice?',
+            a: 'The advice is based on agricultural best practices and verified crop data. For serious outbreaks, consult your local KVK or agronomist. Photo-based disease detection is coming soon.',
           },
           {
             q: 'What happens to my farm data?',
@@ -173,7 +173,7 @@ function StructuredData() {
           },
           {
             q: 'How much data does it use?',
-            a: 'Almost none for text. A crop photo costs about the same as sending one to a friend.',
+            a: 'Almost none for text messages. Works on basic 2G connections.',
           },
         ].map(({ q, a }) => ({
           '@type': 'Question',
